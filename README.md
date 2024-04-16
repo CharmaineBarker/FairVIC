@@ -13,10 +13,12 @@ yap yap yap
 yap yap yap
 
 ### Getting Started
-yap yap yap
+All of the code and packages necessary to implement FairVIC are contained within a tutorial Jupyter Notebook in this repository. This notebook will guide you step by step into using FairVIC in a standard neural network. We encourage you to tweak parameters, weights, and models to highlight the power of FairVIC.
 
 ### Files
-yap yap yap
+This repository contains the following files:
+* `ECAISupplementaryCode.ipynb` - A detailed Jupyter Notebook that will guide readers through using FairVIC.
+* `fairVIC.png` - A high-level overview image of how FairVIC is incorporated within the training of a neural network.
 
 ### Datasets
 yap yap yap
