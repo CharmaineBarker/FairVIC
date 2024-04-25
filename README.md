@@ -37,7 +37,7 @@ All of the code and packages necessary to implement FairVIC are contained within
 ### Files
 This repository contains the following files:
 * `ECAISupplementaryCode.ipynb` - A detailed Jupyter Notebook that will guide readers through using FairVIC.
-* `fairVIC.png` - A high-level overview image of how FairVIC is incorporated within the training of a neural network.
+* `Images` - Contains all the images used in this repo.
 
 ### Datasets
 We evaluate FairVIC in our paper on three tabular datasets that are used in bias mitigation evaluation due to their known biases towards certain subgroups of people within their sample population. These datasets allow for highlighting the generalisable capabilities of FairVIC across different demographic disparities.
