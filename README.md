@@ -8,17 +8,17 @@ Addressing these biases presents complex challenges, notably due to the opaque n
 
 We introduce **FairVIC**, **Fair**ness through **V**ariance, **I**nvariance, and **C**ovariance, a novel approach that directly incorporates fairness into neural networks by optimizing a custom loss function designed to minimise bias. This function reduces the correlation between decisions and protected characteristics while maximizing prediction performance.
 
+<p align="center">
+  <img src="Images/fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+</p>
+<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
+
 FairVIC is distinctive because it integrates fairness concepts during the training process itself, making it less intrusive and more adaptable to various datasets and fairness definitions. Our experiments show that FairVIC significantly improves fairness metrics without compromising prediction accuracy, demonstrating robust performance compared to other state-of-the-art bias mitigation techniques.
 
 Our contributions are as follows:
 - A novel in-processing bias mitigation technique for neural networks.
 - A comprehensive evaluation of FairVIC against other leading methods, demonstrating superior performance on a variety of metrics.
 - An in-depth analysis of the robustness of our proposed method.
-
-<p align="center">
-  <img src="Images/fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
-</p>
-<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
 
 ### FairVIC
 In our paper we propose FairVIC, a novel loss function that enables a model’s ability to learn fairness in a robust manner. FairVIC is comprised of three new terms: variance, invariance, and covariance. Minimising for these three terms encourages the model to be stable and consistent across protected characteristics, therefore reducing bias during training. By adopting this broad, generalized approach to defining bias, FairVIC significantly improves performance across a range of fairness metrics. The three loss terms are defined as:
