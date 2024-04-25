@@ -11,6 +11,25 @@ yap yap yap
 
 ### FairVIC
 yap yap yap
+<p align="center">
+  <img src="fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+</p>
+<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
+
+<p align="center">
+  <img src="fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+</p>
+<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
+
+<p align="center">
+  <img src="fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+</p>
+<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
+
+<p align="center">
+  <img src="fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+</p>
+<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
 
 ### Getting Started
 All of the code and packages necessary to implement FairVIC are contained within a tutorial Jupyter Notebook in this repository. This notebook will guide you step by step into using FairVIC in a standard neural network. We encourage you to tweak parameters, weights, and models to highlight the power of FairVIC.
