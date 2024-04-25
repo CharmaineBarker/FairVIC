@@ -6,7 +6,7 @@ In the fast-evolving field of Artificial Intelligence (AI), Neural Networks (NNs
 
 Addressing these biases presents complex challenges, notably due to the opaque nature of these AI models and the dynamic and nuanced nature of data and fairness definitions. This complexity makes it hard to detect and correct biases, requiring sophisticated approaches to develop inherently fair algorithms.
 
-We introduce **FairVIC** (_**Fair**ness through **V**ariance, **I**nvariance, and **C**ovariance_), a novel approach that directly incorporates fairness into neural networks by optimizing a custom loss function designed to minimise bias. This function reduces the correlation between decisions and protected characteristics while maximizing prediction performance.
+We introduce **FairVIC**, **Fair**ness through **V**ariance, **I**nvariance, and **C**ovariance, a novel approach that directly incorporates fairness into neural networks by optimizing a custom loss function designed to minimise bias. This function reduces the correlation between decisions and protected characteristics while maximizing prediction performance.
 
 FairVIC is distinctive because it integrates fairness concepts during the training process itself, making it less intrusive and more adaptable to various datasets and fairness definitions. Our experiments show that FairVIC significantly improves fairness metrics without compromising prediction accuracy, demonstrating robust performance compared to other state-of-the-art bias mitigation techniques.
 
