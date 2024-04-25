@@ -2,7 +2,18 @@
 This repository contains code from my paper on **Fairness** through **V**ariance, **I**nvariance, and **C**ovariance.
 
 ### Introduction
-yap yap yap
+In the fast-evolving field of Artificial Intelligence (AI), Neural Networks (NNs) have become crucial in Automated Decision Making (ADM) systems across various industries such as healthcare, finance, and recruitment. These models, however, often inherit biases from their training datasets, which can lead to unfair decisions adversely affecting individuals—especially noted in cases like facial recognition technologies where biases can lead to discrimination in law enforcement and hiring.
+
+Addressing these biases presents complex challenges, notably due to the opaque nature of these AI models and the dynamic and nuanced nature of data and fairness definitions. This complexity makes it hard to detect and correct biases, requiring sophisticated approaches to develop inherently fair algorithms.
+
+We introduce **FairVIC** (_**Fair**ness through **V**ariance, **I**nvariance, and **C**ovariance_), a novel approach that directly incorporates fairness into neural networks by optimizing a custom loss function designed to minimise bias. This function reduces the correlation between decisions and protected characteristics while maximizing prediction performance.
+
+FairVIC is distinctive because it integrates fairness concepts during the training process itself, making it less intrusive and more adaptable to various datasets and fairness definitions. Our experiments show that FairVIC significantly improves fairness metrics without compromising prediction accuracy, demonstrating robust performance compared to other state-of-the-art bias mitigation techniques.
+
+Our contributions are as follows:
+- A novel in-processing bias mitigation technique for neural networks.
+- A comprehensive evaluation of FairVIC against other leading methods, demonstrating superior performance on a variety of metrics.
+- An in-depth analysis of the robustness of our proposed method.
 
 <p align="center">
   <img src="Images/fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
