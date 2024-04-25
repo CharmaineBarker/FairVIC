@@ -10,26 +10,26 @@ yap yap yap
 <p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
 
 ### FairVIC
-yap yap yap
+In our paper we propose FairVIC, a novel loss function that enables a model’s ability to learn fairness in a robust manner. FairVIC is comprised of three new terms: variance, invariance, and covariance. Minimising for these three terms encourages the model to be stable and consistent across protected characteristics, therefore reducing bias during training. By adopting this broad, generalized approach to defining bias, FairVIC significantly improves performance across a range of fairness metrics. The three loss terms are defined as:
 <p align="center">
-  <img src="fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+  <img src="Images/variance.png" alt="Variance Equation" width="400"/>
 </p>
-<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
+<p align="center">Eq 1. Variance loss term equation.</p>
 
 <p align="center">
-  <img src="fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+  <img src="Images/invariance.png" alt="Invariance Equation" width="400"/>
 </p>
-<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
+<p align="center">Eq 2. Invariance loss term equation.</p>
 
 <p align="center">
-  <img src="fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+  <img src="Images/covariance.png" alt="Covariance Equation" width="400"/>
 </p>
-<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
+<p align="center">Eq 3. Covariance loss term equation.</p>
 
 <p align="center">
-  <img src="fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+  <img src="Images/algorithm.png" alt="High-level Overview of FairVIC" width="400"/>
 </p>
-<p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
+<p align="center">Alg 1. FairVIC loss function.</p>
 
 ### Getting Started
 All of the code and packages necessary to implement FairVIC are contained within a tutorial Jupyter Notebook in this repository. This notebook will guide you step by step into using FairVIC in a standard neural network. We encourage you to tweak parameters, weights, and models to highlight the power of FairVIC.
