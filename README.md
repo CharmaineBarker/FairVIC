@@ -52,7 +52,6 @@ Dataset 3: [German Credit](https://archive.ics.uci.edu/dataset/144/statlog+germa
 This final dataset is used to assess creditworthiness by classification of individuals into bad or good credit risks, with known biases related to age and gender. 
 
 Metadata for each of the three datasets can be seen below:
-<p align="center">
 | Dataset                  | Adult        | COMPAS           | German        |
 | -------------            | ------------ | -------------    | ------------- |
 | No. of Features          | 11           | 8                | 20            |
@@ -63,4 +62,3 @@ Metadata for each of the three datasets can be seen below:
 | Protected Characteristic | sex          | race             | age           |
 | Privileged Group         | male (1)     | Caucasian        | >25 (1)       |
 | Unprivileged Group       | female (0)   | African-American | <=25 (0)      |
-</p>
