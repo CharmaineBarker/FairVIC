@@ -24,7 +24,7 @@ This repository contains the following files:
 We evaluate FairVIC in our paper on three tabular datasets that are used in bias mitigation evaluation due to their known biases towards certain subgroups of people within their sample population. These datasets allow for highlighting the generalisable capabilities of FairVIC across different demographic disparities.
 
 Dataset 1: [Adult Income](https://archive.ics.uci.edu/dataset/2/adult).
-This is the primary dataset we use for our evaluation. The classification task is to predict whether an individual's income is $>\$50$K or $\leq\$50$K. It is particularly known for its gender and racial biases in economic disparity.
+This is the primary dataset we use for our evaluation. The classification task is to predict whether an individual's income is >$50K or ≤$50K. It is particularly known for its gender and racial biases in economic disparity.
 
 Dataset 2: [COMPAS](https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis).
 The Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) dataset is frequently used for evaluating debiasing techniques. It has a classification goal of predicting recidivism risks and is infamous for its racial biases.
