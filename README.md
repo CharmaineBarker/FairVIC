@@ -37,6 +37,8 @@ In our paper we propose FairVIC, a novel loss function that enables a model’s 
 </p>
 <p align="center">Eq 3. Covariance loss term equation.</p>
 
+For details on implementation these terms within the model's training loop, see Alg 1 below.
+
 <p align="center">
   <img src="Images/algorithm.png" alt="High-level Overview of FairVIC" width="500"/>
 </p>
