@@ -12,22 +12,22 @@ yap yap yap
 ### FairVIC
 In our paper we propose FairVIC, a novel loss function that enables a model’s ability to learn fairness in a robust manner. FairVIC is comprised of three new terms: variance, invariance, and covariance. Minimising for these three terms encourages the model to be stable and consistent across protected characteristics, therefore reducing bias during training. By adopting this broad, generalized approach to defining bias, FairVIC significantly improves performance across a range of fairness metrics. The three loss terms are defined as:
 <p align="center">
-  <img src="Images/variance.png" alt="Variance Equation" width="400"/>
+  <img src="Images/variance.png" alt="Variance Equation" width="500"/>
 </p>
 <p align="center">Eq 1. Variance loss term equation.</p>
 
 <p align="center">
-  <img src="Images/invariance.png" alt="Invariance Equation" width="400"/>
+  <img src="Images/invariance.png" alt="Invariance Equation" width="500"/>
 </p>
 <p align="center">Eq 2. Invariance loss term equation.</p>
 
 <p align="center">
-  <img src="Images/covariance.png" alt="Covariance Equation" width="400"/>
+  <img src="Images/covariance.png" alt="Covariance Equation" width="500"/>
 </p>
 <p align="center">Eq 3. Covariance loss term equation.</p>
 
 <p align="center">
-  <img src="Images/algorithm.png" alt="High-level Overview of FairVIC" width="400"/>
+  <img src="Images/algorithm.png" alt="High-level Overview of FairVIC" width="500"/>
 </p>
 <p align="center">Alg 1. FairVIC loss function.</p>
 
