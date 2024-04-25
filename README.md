@@ -5,7 +5,7 @@ This repository contains code from my paper on **Fairness** through **V**ariance
 yap yap yap
 
 <p align="center">
-  <img src="fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
+  <img src="Images/fairVIC.png" alt="High-level Overview of FairVIC" width="400"/>
 </p>
 <p align="center">Fig 1. A high-level overview of the FairVIC loss function in a neural network training loop.</p>
 
