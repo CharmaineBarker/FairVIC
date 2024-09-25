@@ -54,7 +54,7 @@ This repository contains the following files:
 * `Images` - Contains all the images used in this repo.
 
 ### Datasets
-We evaluate FairVIC in our paper on three tabular datasets that are used in bias mitigation evaluation due to their known biases towards certain subgroups of people within their sample population. These datasets allow for highlighting the generalisable capabilities of FairVIC across different demographic disparities.
+We evaluate FairVIC in our paper on three tabular and one text datasets that are used in bias mitigation evaluation due to their known biases towards certain subgroups of people within their sample population. These datasets allow for highlighting the generalisable capabilities of FairVIC across different demographic disparities.
 
 Dataset 1: [Adult Income](https://archive.ics.uci.edu/dataset/2/adult).
 This is the primary dataset we use for our evaluation. The classification task is to predict whether an individual's income is >$50K or ≤$50K. It is particularly known for its gender and racial biases in economic disparity.
@@ -63,16 +63,19 @@ Dataset 2: [COMPAS](https://www.propublica.org/datastore/dataset/compas-recidivi
 The Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) dataset is frequently used for evaluating debiasing techniques. It has a classification goal of predicting recidivism risks and is infamous for its racial biases.
 
 Dataset 3: [German Credit](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data). 
-This final dataset is used to assess creditworthiness by classification of individuals into bad or good credit risks, with known biases related to age and gender. 
+This final tabulae dataset is used to assess creditworthiness by classification of individuals into bad or good credit risks, with known biases related to age and gender. 
+
+Dataset 4 (Text): [CivilComments-WILDS](https://huggingface.co/datasets/shlomihod/civil-comments-wilds).
+This natural language dataset is comprised of a collection of comments on the Civil Comments platform. The binary classification goal is to label comments as toxic or non-toxic.
 
 Metadata for each of the three datasets can be seen below:
-| Dataset                  | Adult        | COMPAS           | German        |
-| -------------            | ------------ | -------------    | ------------- |
-| No. of Features          | 11           | 8                | 20            |
-| No. of Rows              | 48,842       | 5,278            | 1,000         |
-| Target Variable          | income       | two_year_recid   | credit        |
-| Favourable Label         | >50K (1)     | False (0)        | Good (1)      |
-| Unfavourable Label       | <=50K (0)    | True (1)         | Bad (0)       |
-| Protected Characteristic | sex          | race             | age           |
-| Privileged Group         | male (1)     | Caucasian        | >25 (1)       |
-| Unprivileged Group       | female (0)   | African-American | <=25 (0)      |
+| Dataset                  | Adult        | COMPAS           | German        | CivilComments - WILDS |
+| -------------            | ------------ | -------------    | ------------- | ------------- |
+| No. of Features          | 11           | 8                | 20            | 52 |
+| No. of Rows              | 48,842       | 5,278            | 1,000         | 50,000 |
+| Target Variable          | income       | two_year_recid   | credit        | toxicity |
+| Favourable Label         | >50K (1)     | False (0)        | Good (1)      | Non-Toxic (0) |
+| Unfavourable Label       | <=50K (0)    | True (1)         | Bad (0)       | Toxic (1) |
+| Protected Characteristic | sex          | race             | age           | race |
+| Privileged Group         | male (1)     | Caucasian        | >25 (1)       | white (1) |
+| Unprivileged Group       | female (0)   | African-American | <=25 (0)      | non-white (0) |
