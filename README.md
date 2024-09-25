@@ -49,7 +49,8 @@ All of the code and packages necessary to implement FairVIC are contained within
 
 ### Files
 This repository contains the following files:
-* `ECAISupplementaryCode.ipynb` - A detailed Jupyter Notebook that will guide readers through using FairVIC.
+* `FairVIC_Code.ipynb` - A detailed Jupyter Notebook that will guide readers through using FairVIC.
+* `FairVIC_Recommend_Lambda_Code.ipynb` - A detailed Jupyter Notebook that will guide readers through using FairVIC with the extension for the model to automatically tune the Lambda weights.
 * `Images` - Contains all the images used in this repo.
 
 ### Datasets
