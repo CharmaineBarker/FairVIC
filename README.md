@@ -67,12 +67,12 @@ This final tabulae dataset is used to assess creditworthiness by classification 
 Dataset 4 (Text): [CivilComments-WILDS](https://huggingface.co/datasets/shlomihod/civil-comments-wilds).
 This natural language dataset is comprised of a collection of comments on the Civil Comments platform. The binary classification goal is to label comments as toxic or non-toxic.
 
-Dataset 5 (Text): [BiasBios]([https://huggingface.co/datasets/shlomihod/civil-comments-wilds](https://huggingface.co/datasets/LabHC/bias_in_bios)).
+Dataset 5 (Text): [BiasBios](https://huggingface.co/datasets/LabHC/bias_in_bios).
 This natural language dataset consists of short biographies labelled with profession and gender. We take architect, attorney, dentist, physician, professor, software engineer, surgeon as the favourable professions, and interior designer, journalist, model, nurse, poet, teacher, and yoga teacher as the unfavourable professions for our binary classification task.
 
 Metadata for each of the three datasets can be seen below:
 | Dataset                  | Adult        | COMPAS           | German        | CivilComments - WILDS | Bias Bios        |
-| -------------            | ------------ | -------------    | ------------- | -------------         | Text             |
+| -------------            | ------------ | -------------    | ------------- | -------------         | -------------    |
 | No. of Features          | 11           | 8                | 20            | 52                    | 52               |
 | No. of Rows              | 48,842       | 5,278            | 1,000         | 50,000                | 50,000           |
 | Target Variable          | income       | two_year_recid   | credit        | toxicity              | profession       |
