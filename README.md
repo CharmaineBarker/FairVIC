@@ -49,7 +49,7 @@ All of the code and packages necessary to implement FairVIC are contained within
 
 ### Files
 This repository contains the following files:
-* `FairVIC_Code.ipynb` - A detailed Jupyter Notebook that will guide readers through using FairVIC.
+* `AdultFairVICSupplementaryCode.ipynb` - A detailed Jupyter Notebook that will guide readers through using FairVIC.
 * `Images` - Contains all the images used in this repo.
 
 ### Datasets
