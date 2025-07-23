@@ -71,13 +71,14 @@ Dataset 5 (Text): [BiasBios](https://huggingface.co/datasets/LabHC/bias_in_bios)
 This natural language dataset consists of short biographies labelled with profession and gender. We take architect, attorney, dentist, physician, professor, software engineer, surgeon as the favourable professions, and interior designer, journalist, model, nurse, poet, teacher, and yoga teacher as the unfavourable professions for our binary classification task.
 
 Metadata for each of the three datasets can be seen below:
-| Dataset                  | Adult        | COMPAS           | German        | CivilComments - WILDS | Bias Bios        |
-| -------------            | ------------ | -------------    | ------------- | -------------         | -------------    |
-| No. of Features          | 11           | 8                | 20            | 52                    | 52               |
-| No. of Rows              | 48,842       | 5,278            | 1,000         | 50,000                | 50,000           |
-| Target Variable          | income       | two_year_recid   | credit        | toxicity              | profession       |
-| Favourable Label         | >50K (1)     | False (0)        | Good (1)      | Non-Toxic (0)         | Favourable (1)   |
-| Unfavourable Label       | <=50K (0)    | True (1)         | Bad (0)       | Toxic (1)             | Unfavourable (0) |
-| Protected Characteristic | sex          | race             | age           | race                  | gender           |
-| Privileged Group         | male (1)     | Caucasian        | >25 (1)       | white (1)             | Male (0)         |
-| Unprivileged Group       | female (0)   | African-American | <=25 (0)      | non-white (0)         | Female (1)       |
+| Dataset                  | Adult        | COMPAS           | German        | CivilComments - WILDS | Bias Bios        | CelebA         | UTKFace       |
+| -------------            | ------------ | -------------    | ------------- | -------------         | -------------    | -------------  | ------------- |
+| Data Modality            | Tabular      | Tabular          | Tabular       | Text                  | Text             | Image          | Image         |
+| No. of Features          | 11           | 8                | 20            | 52                    | 52               | 128 x 128 + 2  | 128 x 128 + 2 |
+| No. of Rows              | 48,842       | 5,278            | 1,000         | 50,000                | 50,000           | 50,000         | 23,705        |
+| Target Variable          | income       | two_year_recid   | credit        | toxicity              | profession       | Blond_Hair     | age           |
+| Favourable Label         | >50K (1)     | False (0)        | Good (1)      | Non-Toxic (0)         | Favourable (1)   | Not Blond (-1) | <30 (1)       |
+| Unfavourable Label       | <=50K (0)    | True (1)         | Bad (0)       | Toxic (1)             | Unfavourable (0) | Blond (1)      | >=30 (0)      |
+| Protected Characteristic | sex          | race             | age           | race                  | gender           | Male           | race          |
+| Privileged Group         | male (1)     | Caucasian        | >25 (1)       | white (1)             | Male (0)         | Male (1)       | White (1)     |
+| Unprivileged Group       | female (0)   | African-American | <=25 (0)      | non-white (0)         | Female (1)       | Female (0)     | Non-White (0) |
