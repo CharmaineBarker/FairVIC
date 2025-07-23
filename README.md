@@ -62,13 +62,19 @@ Dataset 2: [COMPAS](https://www.propublica.org/datastore/dataset/compas-recidivi
 The Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) dataset is frequently used for evaluating debiasing techniques. It has a classification goal of predicting recidivism risks and is infamous for its racial biases.
 
 Dataset 3: [German Credit](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data). 
-This final tabulae dataset is used to assess creditworthiness by classification of individuals into bad or good credit risks, with known biases related to age and gender. 
+This final tabular dataset is used to assess creditworthiness by classification of individuals into bad or good credit risks, with known biases related to age and gender. 
 
 Dataset 4 (Text): [CivilComments-WILDS](https://huggingface.co/datasets/shlomihod/civil-comments-wilds).
 This natural language dataset is comprised of a collection of comments on the Civil Comments platform. The binary classification goal is to label comments as toxic or non-toxic.
 
 Dataset 5 (Text): [BiasBios](https://huggingface.co/datasets/LabHC/bias_in_bios).
 This natural language dataset consists of short biographies labelled with profession and gender. We take architect, attorney, dentist, physician, professor, software engineer, surgeon as the favourable professions, and interior designer, journalist, model, nurse, poet, teacher, and yoga teacher as the unfavourable professions for our binary classification task.
+
+Dataset 6 (Image): [CelebA](https://huggingface.co/datasets/flwrlabs/celeba).
+This dataset features a large amount of images of celebroty faces, annotated with a number of attricutes. We use the binary classification task of predicting whether or not an individual has blond hair, with sex being the protected characteristic.
+
+Dataset 7 (Image): [UTKFace](https://susanqq.github.io/UTKFace/).
+This image dataset consists of images of faces with annotations of age, gender, and ethnicity. We take age as a binary classification to predict whether an indvidual is above or below the age of 30, with race as the protected characteristic.
 
 Metadata for each of the three datasets can be seen below:
 | Dataset                  | Adult        | COMPAS           | German        | CivilComments - WILDS | Bias Bios        | CelebA         | UTKFace       |
